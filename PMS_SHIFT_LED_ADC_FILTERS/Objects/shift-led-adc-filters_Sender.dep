@@ -1,0 +1,208 @@
+Dependencies for Project 'shift-led-adc-filters', Target 'Sender': (DO NOT MODIFY !)
+F (.\senderSrc\main.c)(0x5DF20A37)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Sender-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (senderSrc\filter.h)(0x5DDF7C36)
+I (senderSrc\buffer.h)(0x5DDF72B2)
+I (senderSrc\delay.h)(0x5DF1F5B4)
+I (senderSrc\uartlib.h)(0x5DF1F516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (.\RTE\_Sender\RTE_Components.h)(0x5DF1F140)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D25E516)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBCE42)
+I (senderSrc\ADC.h)(0x5DBF54A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEBCE42)
+F (.\senderSrc\ADC.c)(0x5DC33C74)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Sender-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (senderSrc\ADC.h)(0x5DBF54A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEBCE42)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (.\RTE\_Sender\RTE_Components.h)(0x5DF1F140)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D25E516)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+I (senderSrc\delay.h)(0x5DF1F5B4)
+F (.\senderSrc\ADC.h)(0x5DBF54A8)()
+F (.\senderSrc\buffer.h)(0x5DDF72B2)()
+F (.\senderSrc\delay.h)(0x5DF1F5B4)()
+F (.\senderSrc\filter.h)(0x5DDF7C36)()
+F (.\senderSrc\buffer.c)(0x5DDF7DB4)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Sender-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD-o .\objects\buffer.o --omf_browse .\objects\buffer.crf --depend .\objects\buffer.d)
+I (senderSrc\buffer.h)(0x5DDF72B2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEBCE42)
+F (.\senderSrc\delay.c)(0x5DCD1E52)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Sender-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (senderSrc\delay.h)(0x5DF1F5B4)
+F (.\senderSrc\filter.c)(0x5DDF7C8A)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Sender-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD-o .\objects\filter.o --omf_browse .\objects\filter.crf --depend .\objects\filter.d)
+I (senderSrc\filter.h)(0x5DDF7C36)
+I (senderSrc\buffer.h)(0x5DDF72B2)
+F (.\senderSrc\uartlib.c)(0x5DF1FCB8)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Sender-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD-o .\objects\uartlib.o --omf_browse .\objects\uartlib.crf --depend .\objects\uartlib.d)
+I (senderSrc\uartlib.h)(0x5DF1F516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (.\RTE\_Sender\RTE_Components.h)(0x5DF1F140)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D25E516)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEBCE42)
+I (senderSrc\delay.h)(0x5DF1F5B4)
+F (.\senderSrc\uartlib.h)(0x5DF1F516)()
+F (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\misc.c)(0x52FA3F80)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Sender-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (.\RTE\_Sender\RTE_Components.h)(0x5DF1F140)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D25E516)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52FA3F80)
+F (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_adc.c)(0x52FA3F80)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Sender-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_adc.o --omf_browse .\objects\stm32f10x_adc.crf --depend .\objects\stm32f10x_adc.d)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (.\RTE\_Sender\RTE_Components.h)(0x5DF1F140)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D25E516)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+F (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_gpio.c)(0x52FA3F80)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Sender-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (.\RTE\_Sender\RTE_Components.h)(0x5DF1F140)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D25E516)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+F (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_rcc.c)(0x52FA3F80)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Sender-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (.\RTE\_Sender\RTE_Components.h)(0x5DF1F140)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D25E516)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+F (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_sdio.c)(0x52FA3F80)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Sender-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_sdio.o --omf_browse .\objects\stm32f10x_sdio.crf --depend .\objects\stm32f10x_sdio.d)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (.\RTE\_Sender\RTE_Components.h)(0x5DF1F140)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D25E516)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+F (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_usart.c)(0x52FA3F80)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Sender-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_usart.o --omf_browse .\objects\stm32f10x_usart.crf --depend .\objects\stm32f10x_usart.d)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (.\RTE\_Sender\RTE_Components.h)(0x5DF1F140)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D25E516)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+F (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver\GPIO_STM32F10x.c)(0x571F4B6A)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Sender-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD-o .\objects\gpio_stm32f10x.o --omf_browse .\objects\gpio_stm32f10x.crf --depend .\objects\gpio_stm32f10x.d)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver\GPIO_STM32F10x.h)(0x56177D7E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5CEBCE3E)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (.\RTE\_Sender\RTE_Components.h)(0x5DF1F140)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D25E516)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+F (RTE\Device\STM32F103C8\RTE_Device.h)(0x59283406)()
+F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x58258CCC)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\Device\STM32F103C8-I.\RTE\_Sender-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver"--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
+F (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)()
+F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x58258CCC)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F103C8-I.\RTE\_Sender-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc"-I"C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\RTE_Driver"-D__UVISION_VERSION="528" -D_RTE_ -DSTM32F10X_MD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (.\RTE\_Sender\RTE_Components.h)(0x5DF1F140)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D25E516)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEBCE42)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25E516)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52FA3F80)
+I (C:\Users\Oleksii Tymchenko\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
